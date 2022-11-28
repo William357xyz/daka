@@ -31,4 +31,6 @@ jobs:
         INFO: ${{ secrets.INFO }}
         MAIL: ${{ secrets.MAIL }}
       run: node index.js
-                
+   - name: Keepalive Workflow
+     uses: gautamkrishnar/keepalive-workflow@1.0.10
+             
